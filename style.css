@@ -1,0 +1,73 @@
+body, html {
+	height: 100%;
+	background: linear-gradient(to bottom, skyblue, lightgreen);
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.list-container{
+	background: white;
+	height: auto 0;
+	width: 500px;
+	text-align: center;
+	padding-bottom: 1rem;
+	margin-top: 80px;
+	border-radius: 3px;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, .7);
+}
+
+.list {
+	background-color: skyblue;
+	width: 80%;
+	margin: 20px auto;
+	height: auto;
+	text-align: left;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.del {
+	background: red;
+	border-radius: 5px;
+	margin-left: 20px;
+	border-color: transparent;
+	cursor: pointer;
+
+}
+
+.edit {
+	background: lightgreen;
+	border-radius: 5px;
+	margin-left: 5px;
+	border-color: transparent;
+	cursor: pointer;
+
+}
+
+
+input {
+	padding: 5px 20px;
+	border-radius: 5px;
+	border-color: #5995e3;
+	
+}
+
+.input button {
+	padding: 5px 30px;
+	border-radius: 5px;
+	background: skyblue;
+	border-color: transparent;
+	
+}
+
+ul {
+	cursor: pointer;
+	margin-left: 24px;
+}
