@@ -12,19 +12,19 @@ body, html {
 
 .list-container{
 	background: white;
-	height: auto 0;
+	height: auto;
 	width: 500px;
 	text-align: center;
 	padding-bottom: 1rem;
 	margin-top: 80px;
-	border-radius: 3px;
+	border-radius: 5px;
 	box-shadow: 4px 4px 15px rgba(0, 0, 0, .7);
 }
 
 .list {
 	background-color: skyblue;
-	width: 80%;
-	margin: 20px auto;
+	width: 20rem;
+	margin: auto;
 	height: auto;
 	text-align: left;
 }
@@ -69,5 +69,6 @@ input {
 
 ul {
 	cursor: pointer;
-	margin-left: 24px;
+	margin-left: -20px;
+	margin-bottom: 10px;
 }
